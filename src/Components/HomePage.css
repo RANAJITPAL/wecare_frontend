@@ -19,4 +19,5 @@
     /* color: rgb(15, 19, 241); */
     background-color:  rgb(52, 54, 160);
     height: 10%;
+    bottom: unset;
   }

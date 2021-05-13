@@ -1,5 +1,7 @@
 
-import { AppBar, Card, CardContent, Toolbar, Typography, Box } from '@material-ui/core';
+import { AppBar, Card, CardContent, Toolbar, Typography, Box} from '@material-ui/core';
+import UserLogin from './UserLogin';
+
 import './HomePage.css';
 function HomePage() {
     return (
@@ -18,12 +20,19 @@ function HomePage() {
                     <div style={{ padding: '25px' }}>
                         <Card variant='elevation' className='card_style' m={10} p={10}>
                             <CardContent>
-                                <text>card 1</text>
+                                <Typography variant="h6" align = "center">
+                                    User Login
+                                </Typography>
+                            </CardContent>
+                            <CardContent>
+                                <div>
+                                    <UserLogin/>
+                                </div>
                             </CardContent>
                         </Card>
                     </div>
                     <div style={{ padding: '25px' }}>
-                        <Card variant='elevation' className='card_style'>
+                        <Card variant='elevation' className='card_style' m={10} p={10} >
                             <CardContent>
                                 <text>card 2</text>
                             </CardContent>
